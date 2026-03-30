@@ -48,33 +48,21 @@ lib/
 │   │   │   └─ chart_widget.dart
 │   │   └─ themes/
 │   │       └─ app_theme.dart
-│   ├─ auth/
-│   │   ├─ view_models/
-│   │   │   └─ login_view_model.dart
-│   │   └─ views/
-│   │       ├─ login_screen.dart
-│   │       └─ register_screen.dart
-│   ├─ home/
-│   │   ├─ view_models/
-│   │   │   └─ home_view_model.dart
-│   │   └─ views/
-│   │       └─ home_screen.dart
-│   ├─ expense/
-│   │   ├─ view_models/
-│   │   │   └─ add_expense_view_model.dart
-│   │   └─ views/
-│   │       └─ add_expense_screen.dart
 │   ├─ category/
 │   │   ├─ view_models/
 │   │   │   └─ category_view_model.dart
 │   │   └─ views/
 │   │       └─ category_screen.dart
+│   ├─ expense/
+│   │   ├─ view_models/
+│   │   │   └─ add_expense_view_model.dart
+│   │   └─ views/
+│   │       └─ add_expense_screen.dart
 │   └─ stats/
 │       ├─ view_models/
 │       │   └─ stats_view_model.dart
 │       └─ views/
 │           └─ stats_screen.dart
-
 ```
 
 ## Data Flow
