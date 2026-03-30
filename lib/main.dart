@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
 
+import 'routing/app_router.dart';
+import 'routing/routes.dart';
+import 'ui/core/themes/app_theme.dart';
+
 void main() {
-  runApp(const MainApp());
+  runApp(const MonetaApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MonetaApp extends StatelessWidget {
+  const MonetaApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      title: 'Moneta',
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme.light,
+      onGenerateRoute: AppRouter.generate,
+      initialRoute: Routes.stats,
     );
   }
 }
